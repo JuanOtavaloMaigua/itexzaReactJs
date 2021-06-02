@@ -38,6 +38,8 @@
     display: flex;
     justify-content: center;
     height: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 .nav-container{
@@ -47,27 +49,78 @@
     align-items: center;
 }
 
+
 .BannerContainer{
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    height: 300px;
+    grid-template-rows: repeat(1, 1fr);
 }
 
 .BannerContainer-Picture{
-    grid-area: 1/1/3/3;
+    width: 100%;
+    grid-area: 1/1/2/2;
 }
 
-.BannerContainer-Text{
-    grid-area: 1/1/3/3;
+.BannerContainer-text{
+    grid-area: 1/1/2/2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 50px;
 }
 
+.BannerContainer-text > p{
+    color: #EFEFEF;
+    border-bottom: solid #EFEFEF;
+    width: 20px;
+    margin-left: 40px;
+    font-size: 20px;
+    margin-top: 0px;  
+    margin-bottom: 5px;  
+}
 
 .BannerContainer-Picture > img{
     width: 100%;
 }
 
-.BannerContainer-text > p{
-    color: gray;
-    border-bottom: solid gray;
+.ProductImageContainer{
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
 }
+
+.ProductImageContainer > img{
+    width: 100%;
+    height: 100%;
+    grid-area: 1/1/2/2;
+}
+
+.ProductImageContainer > p{
+    grid-area: 1/1/2/2;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    color: white;
+    font-size: 5px;
+}
+
+.OwnProducts{
+    background-color: var(--cream);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.OwnProductsContainer{
+    width: 95%;
+}
+
+.OwnProductsContainer-Images{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 5px;
+}
+
+
+
 
