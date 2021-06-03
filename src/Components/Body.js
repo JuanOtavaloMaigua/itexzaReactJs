@@ -2,11 +2,10 @@ import React from 'react';
 import MobileHeader from './Header/MobileHeader';
 import PreHeader from './Header/PreHeader'
 import ImageAndText from './ImageAndText';
-import ProductImageAndtext from './ProductImageAndText';
 import GridProducts from './GridProducts'
 
 export default function Body(){
-    const imageNames = ['TelasImpermeables.png', 'TelasPeluche.png', 'TelasTermica.png']
+    const imageNames = ['TelasPeluche.png', 'TelasTermica.png', 'TelasImpermeables.png']
     return(
         <div>
             <PreHeader/>

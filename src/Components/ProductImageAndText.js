@@ -2,11 +2,12 @@ import React from 'react'
 import '../Styles/Style.css'
 
 export default function ProductImageAndtext(props){
-    const { nameImage } = props
+    const { nameImage , className} = props
+
     return(
-        <div className="ProductImageContainer">
-            <img src={process.env.PUBLIC_URL + `/images/${nameImage}`}/>
+        <div className={className}>
+            <img src={process.env.PUBLIC_URL + `/images/${nameImage}`} alt={nameImage}/>
             <p>{nameImage}</p>
         </div>
-    )
+    )   
 }

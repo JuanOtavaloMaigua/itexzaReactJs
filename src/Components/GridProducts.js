@@ -10,11 +10,14 @@ export default function GridProduct(props){
                     <p>Nuestros productos</p>
                     <div className="OwnProductsContainer-Images">
                         {
-                            Object.values(nameOfImages).map((value, index)=>{
-                                console.log('this is the index',index)
-                                return <ProductImageAndtext nameImage={value}/>
-                                // if the index is at the ending then add a class to modify width in of the last photo
-                                // may be this change only have to maked when the number of photos are odd(impar)
+                            Object.values(nameOfImages).map((nameImage, index)=>{
+
+                                if(index%2===0){
+                                    return <ProductImageAndtext className={"ProductImageContainer"} nameImage={nameImage}/>
+                                }
+
+                                return <ProductImageAndtext className={"ProductImageContainer AllScreen"} nameImage={nameImage}/>
+
                             })
                         }
                     </div>

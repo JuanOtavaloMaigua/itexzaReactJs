@@ -97,10 +97,10 @@
     grid-area: 1/1/2/2;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
     color: white;
-    font-size: 5px;
+    font-size: 12px;
 }
 
 .OwnProducts{
@@ -116,9 +116,15 @@
 
 .OwnProductsContainer-Images{
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 200px;
     gap: 5px;
+}
+
+.AllScreen{
+    grid-area: 1/1/1/3;
+    grid-row: 2/2;
+    margin-bottom: 15px;
 }
 
 
