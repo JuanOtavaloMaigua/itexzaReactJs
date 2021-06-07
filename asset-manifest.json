@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/itexzaReactJs/static/css/main.3c449298.chunk.css",
+    "main.js": "/itexzaReactJs/static/js/main.5981fbdd.chunk.js",
+    "main.js.map": "/itexzaReactJs/static/js/main.5981fbdd.chunk.js.map",
+    "runtime-main.js": "/itexzaReactJs/static/js/runtime-main.4ed47f7c.js",
+    "runtime-main.js.map": "/itexzaReactJs/static/js/runtime-main.4ed47f7c.js.map",
+    "static/js/2.27b58ccc.chunk.js": "/itexzaReactJs/static/js/2.27b58ccc.chunk.js",
+    "static/js/2.27b58ccc.chunk.js.map": "/itexzaReactJs/static/js/2.27b58ccc.chunk.js.map",
+    "static/js/3.3deff040.chunk.js": "/itexzaReactJs/static/js/3.3deff040.chunk.js",
+    "static/js/3.3deff040.chunk.js.map": "/itexzaReactJs/static/js/3.3deff040.chunk.js.map",
+    "index.html": "/itexzaReactJs/index.html",
+    "static/css/main.3c449298.chunk.css.map": "/itexzaReactJs/static/css/main.3c449298.chunk.css.map",
+    "static/js/2.27b58ccc.chunk.js.LICENSE.txt": "/itexzaReactJs/static/js/2.27b58ccc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ed47f7c.js",
+    "static/js/2.27b58ccc.chunk.js",
+    "static/css/main.3c449298.chunk.css",
+    "static/js/main.5981fbdd.chunk.js"
+  ]
+}
