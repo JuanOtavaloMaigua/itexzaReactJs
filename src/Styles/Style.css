@@ -127,6 +127,39 @@
     margin-bottom: 15px;
 }
 
+/* everything below are styles for Carrousel component */
 
+.SliderContainer{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+}
 
+.SliderContainerMargin{
+    width: 95%;
+    background-color: aqua;
+}
+
+.SliderContainerMargin > p{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.SliderContainerMargin-image{
+    display: flex;
+    height: 100%;
+    background-color: bisque;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.imageContainer{
+    padding-left: 20px;
+}
+
+.imageContainer > img{
+    height: 225px;
+    width: 225px;
+    object-fit: cover;
+}
 
