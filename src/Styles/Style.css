@@ -136,7 +136,7 @@
 
 .SliderContainer{
     display: flex;
-    height: 400px;
+    height: 300px;
     justify-content: center;
 }
 
@@ -151,7 +151,6 @@
 
 .SliderContainerMargin-image{
     display: flex;
-    height: 100%;
     align-items: center;
     overflow-y: hidden;
 }
