@@ -13,7 +13,7 @@ export default function Body(){
             <MobileHeader/>
             <ImageAndText/>
             <GridProducts nameOfImages={imageNames}/>
-            {/* <Slider/> */}
+            <Slider/>
         </div>
     )
 }

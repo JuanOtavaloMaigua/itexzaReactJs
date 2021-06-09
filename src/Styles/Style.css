@@ -111,7 +111,7 @@
 
 /* Grid Porducts component css */
 .OwnProducts{
-    background-color: brown;
+    background-color:var(--cream);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -144,7 +144,6 @@
 
 .SliderContainerMargin{
     width: 95%;
-    background-color: aqua;
 }
 
 .SliderContainerMargin > p{
@@ -155,7 +154,6 @@
 .SliderContainerMargin-image{
     display: flex;
     height: 100%;
-    background-color: bisque;
     align-items: center;
     overflow-y: hidden;
 }
