@@ -49,6 +49,7 @@
     align-items: center;
 }
 
+
 /* This is Image And Text component css styles */
 .BannerContainer{
     display: grid;
@@ -56,8 +57,8 @@
 }
 
 .BannerContainer-Picture{
-    width: 100%;
     grid-area: 1/1/2/2;
+    height: 350px;
 }
 
 .BannerContainer-text{
@@ -69,8 +70,8 @@
 }
 
 .BannerContainer-text > p{
-    color: #EFEFEF;
-    border-bottom: solid #EFEFEF;
+    color: var(--cream);
+    border-bottom: solid var(--cream);
     width: 20px;
     margin-left: 40px;
     font-size: 20px;
@@ -78,12 +79,9 @@
     margin-bottom: 5px;  
 }
 
-.BannerContainer-Picture{
-    height: 350px;
-}
-
 .BannerContainer-Picture > img{
     height: 100%;
+    width: 100%;
 }
 
 /* This is grid products component css */
@@ -134,7 +132,7 @@
     grid-area: 2/1/2/2 span;
 }
 
-/* everything below are styles for Carrousel component */
+/* everything below are styles for slide component */
 
 .SliderContainer{
     display: flex;
