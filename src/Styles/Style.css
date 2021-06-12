@@ -129,7 +129,9 @@
 }
 
 .AllScreen{
-    grid-area: 2/1/2/2 span;
+    /* grid-area: 2/1/2/2 span; */
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 
 /* everything below are styles for slide component */

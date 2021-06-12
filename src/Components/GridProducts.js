@@ -4,6 +4,7 @@ import './../Styles/Style.css'
 
 export default function GridProduct(props){
     const { nameOfImages } = props
+    console.log('nombre imágenes: ',nameOfImages)
     return (
             <div className="OwnProducts">
                 <div className="OwnProductsContainer">
